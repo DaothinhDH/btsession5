@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar{
+    font-size: 1rem;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 1px 1px rgba(147, 140, 140, 0.537);
+    margin-bottom: 30px;
+}
+.navbar > span{
+   
+    font-size: 1.6rem;
+}
+.navbar ul{
+    display: flex;
+    gap: 15px;
+}
+.navbar ul :nth-child(2){
+    color: brown;
+}
+
+main{
+    padding: 0px 15px;
+
+}
+h1{
+    font-size: 4rem;   
+    margin-left: 3rem;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.content .card{
+    flex: 100px ;
+    padding:150px 0;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.card > span >svg{
+    width: 100px;
+    height: 100px;
+}
+.card > h3{
+    font-size: 2rem;
+color: brown;
+}
+.card > p{
+text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <span class="logo">Ultra Profile</span>
+            <nav>
+                <ul class="sub">
+                    <li>HOME</li>
+                    <li>MY WORK</li>
+                    <li>PORJFOLIO</li>
+                    <li>RESUME</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1> <span style="font-size: 3rem;">MY</span> <span>Work</span></h1>
+        <div class="content">
+            <div class="card">
+              <span class="icon"><i class="fa-solid fa-mobile"></i></span>
+              <h3>MOBILE UX</h3>
+              <p>Lorem ipsum dolor sit amet  dolorem tenetur, quia voluptatum, </p>
+            </div><div class="card">
+                <span class="icon"><i class="fa-solid fa-bolt"></i></span>
+                <h3>WED DESIGN</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.     </p>
+            </div><div class="card">
+                <span class="icon"><i class="fa-regular fa-clock"></i></span>
+                <h3>HTML TEMPLATES</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.     </p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

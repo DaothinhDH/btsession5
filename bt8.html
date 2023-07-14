@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+       
+        .logo{
+            width: 600px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.5rem;
+            padding: 8px;           
+            background-color: rgba(52, 136, 220, 0.995);                   
+        }
+        .navbar{
+            width: 600px;
+            height: 100px;
+            position: relative;
+          
+        }
+
+       .new{
+         width: 570px;
+        height: 30px;
+        margin: 0;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        
+       } 
+       .add{
+        border: 0px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 255, 0.717);
+       }
+       .text{
+        width: 400px;
+        height: 20px;
+
+       }
+       h2{
+        width: 600px;
+        height: 60px;  
+        background-color: rgb(218, 230, 230);
+        position: absolute;
+        top: 100px;
+        line-height: 60px;
+       }
+       footer{
+          width: 600px;
+          height: 50px;
+          background-color: rgba(218, 211, 203, 0.258);
+          margin-top: 60px;
+          text-align: center;
+
+       }
+        
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <h3>Task List</h3>
+        <input type="submit" value="Share" class="submit">
+    </div>
+    <div class="navbar">             
+        <div class="new">
+            <p>New Task:</p>
+            <input type="text" class="text">
+            <input type="submit" value="Add Task" class="add">
+        </div>
+        <div class="class">
+            <h2>Shared Task List</h2>
+        </div>
+    </div>
+    <footer>
+        <p>&copy;2023 Task List App</p>
+    </footer>
+</body>
+
+</html>
